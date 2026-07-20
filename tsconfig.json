@@ -5,10 +5,12 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "target": "ES2024",
+    "lib": ["ESNext"],
+    "types": ["node", "jest"],
+    "strict": false,
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
     "incremental": true
   },
   "exclude": ["node_modules", "dist"]
