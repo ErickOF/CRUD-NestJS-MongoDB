@@ -23,6 +23,7 @@
     "node": "26.5.0"
   },
   "overrides": {
+    "brace-expansion": "5.0.8",
     "glob": "13.0.6",
     "inflight": "npm:lru-cache@11.5.2",
     "multer": "2.2.0",
